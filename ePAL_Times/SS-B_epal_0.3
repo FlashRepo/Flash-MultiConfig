@@ -1,0 +1,202 @@
+>> run_pal
+executing gpml startup script...
+
+conf = 
+
+                     name: 'sn'
+             num_features: 3
+                 readfile: 'train_data/sort_256.csv'
+           results_folder: 'results_sort_256/'
+                log_train: 1
+           max_perc_train: 60
+    train_data_range_obj1: 56
+    train_data_range_obj2: 80
+                    delta: 0.1000
+              factor_beta: 5
+    length_training_start: 15
+                test_mode: 1
+    number_of_repetitions: 40
+            exchange_path: 'exchange'
+            maximize_obj1: 0
+            maximize_obj2: 1
+             epsilon_list: 0.3000
+        max_size_pred_pop: 2000
+          train_set_exist: 0
+           print_progress: 1
+                 infinite: 0
+     eliminate_duplicates: 0
+        train_set_in_file: 'results_sort_256/train_out.csv'
+
+
+gp_conf = 
+
+     meanfunc: {[@meanConst]}
+      covfunc: {[@covSum]  {1x2 cell}}
+      likfunc: @likGauss
+     hyp_obj1: 0
+     hyp_obj2: 0
+    post_obj1: 0
+    post_obj2: 0
+
+
+real_pareto_set_transformed =
+
+     0
+
+    [26x1 double]    [26x1 double]
+
+
+real_pareto_set_transformed = 
+
+    [26x1 double]    [26x1 double]
+
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 27
+epsilon: 2.835843
+total time: 0.427587
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 25
+epsilon: 4.323792
+total time: 0.122821
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 22
+epsilon: 6.942524
+total time: 0.074336
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 23
+epsilon: 2.658883
+total time: 0.056363
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 21
+epsilon: 6.816267
+total time: 0.029180
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 24
+epsilon: 4.827333
+total time: 0.102234
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 18
+epsilon: 5.709637
+total time: 0.029956
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 31
+epsilon: 3.393196
+total time: 0.191652
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 20
+epsilon: 8.394800
+total time: 0.060321
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 22
+epsilon: 3.616401
+total time: 0.081444
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 41
+epsilon: 4.866652
+total time: 0.308169
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 32
+epsilon: 3.369908
+total time: 0.166922
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 22
+epsilon: 7.798455
+total time: 0.086202
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 22
+epsilon: 5.824274
+total time: 0.084150
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 20
+epsilon: 5.101387
+total time: 0.055100
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 26
+epsilon: 3.709889
+total time: 0.134185
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 22
+epsilon: 4.890969
+total time: 0.074754
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 23
+epsilon: 3.665000
+total time: 0.098116
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 18
+epsilon: 6.913519
+total time: 0.038234
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 32
+epsilon: 3.855046
+total time: 0.201933
+>> 

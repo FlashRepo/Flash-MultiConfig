@@ -1,0 +1,445 @@
+>> run_pal
+executing gpml startup script...
+
+conf = 
+
+                     name: 'wc+wc-3d-c4'
+             num_features: 3
+                 readfile: 'train_data/wc+wc-3d-c4.csv'
+           results_folder: 'results_wc+wc-3d-c4/'
+                log_train: 0
+           max_perc_train: 20
+    train_data_range_obj1: 6.1859e+04
+    train_data_range_obj2: 1.0500e+05
+                    delta: 0.1000
+              factor_beta: 5
+    length_training_start: 30
+          s2_optimization: 1
+                test_mode: 1
+    number_of_repetitions: 40
+            exchange_path: 'exchange'
+            maximize_obj1: 1
+            maximize_obj2: 0
+             epsilon_list: 0.0100
+        max_size_pred_pop: 2000
+          train_set_exist: 0
+           print_progress: 1
+                 infinite: 0
+     eliminate_duplicates: 0
+        train_set_in_file: 'results_wc+wc-3d-c4/train_out.csv'
+
+
+gp_conf = 
+
+     meanfunc: {[@meanConst]}
+      covfunc: {[@covSum]  {1x2 cell}}
+      likfunc: @likGauss
+     hyp_obj1: 0
+     hyp_obj2: 0
+    post_obj1: 0
+    post_obj2: 0
+
+
+real_pareto_set_transformed =
+
+     0
+
+    [9x1 double]    [9x1 double]
+
+
+real_pareto_set_transformed = 
+
+    [9x1 double]    [9x1 double]
+
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 141
+epsilon: 5.872506
+total time: 1.778206
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 138
+epsilon: 4.765174
+total time: 1.464362
+******************* start new experiment *******************
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 34
+  In run_pal at 146 
+
+
+gp obj1 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 196
+epsilon: 0.000000
+total time: 1.609124
+******************* start new experiment *******************
+
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 137
+epsilon: 3.096358
+total time: 0.011505
+******************* start new experiment *******************
+
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 151
+epsilon: 0.000230
+total time: 0.797616
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 141
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 59
+  In run_pal at 146 
+
+***********  ended  ***********
+number of evaluations : 64
+epsilon: 3.500312
+total time: 0.131594
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 114
+epsilon: 3.500069
+total time: 1.136178
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+***********  ended  ***********
+number of evaluations : 196
+epsilon: 0.000000
+total time: 2.461783
+******************* start new experiment *******************
+
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 117
+epsilon: 1.232708
+total time: 0.704040
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 193
+epsilon: 0.314156
+total time: 2.465615
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 196
+epsilon: 0.000000
+total time: 2.507249
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 154
+epsilon: 0.000000
+total time: 1.776965
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 53
+epsilon: 3.510632
+total time: 0.280802
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+***********  ended  ***********
+number of evaluations : 193
+epsilon: 0.000000
+total time: 2.487453
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 97
+epsilon: 0.314160
+total time: 0.010652
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 116
+epsilon: 0.000000
+total time: 1.167786
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 130
+epsilon: 2.774976
+total time: 0.449978
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 160
+epsilon: 1.106798
+total time: 1.308194
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 137
+epsilon: 0.000000
+total time: 1.477796
+******************* start new experiment *******************
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 34
+  In run_pal at 146 
+
+
+***********  ended  ***********
+number of evaluations : 95
+epsilon: 6.276578
+total time: 0.871339
+>> 

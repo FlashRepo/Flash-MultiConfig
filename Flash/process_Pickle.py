@@ -3,7 +3,7 @@ import os
 
 pickle_folder = "./PickleLocker_FlashB_30_50/"
 
-files = ['SS-A', 'SS-B', 'SS-C', 'SS-D', 'SS-E', 'SS-F', 'SS-G', 'SS-H', 'SS-I', 'SS-J', 'SS-K', 'SS-L']#, 'SS-M','SS-N', 'SS-O']
+files = ['SS-A', 'SS-B', 'SS-C', 'SS-D', 'SS-E', 'SS-F', 'SS-G', 'SS-H', 'SS-I', 'SS-J', 'SS-K', 'SS-L', 'SS-M','SS-N', 'SS-O']
 
 pickle_files = [pickle_folder + f for f in os.listdir(pickle_folder)]
 

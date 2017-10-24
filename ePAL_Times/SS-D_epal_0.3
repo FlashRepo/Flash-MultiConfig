@@ -1,0 +1,235 @@
+>> run_pal
+executing gpml startup script...
+
+conf = 
+
+                     name: 'wc+wc-3d-c4'
+             num_features: 3
+                 readfile: 'train_data/wc+wc-3d-c4.csv'
+           results_folder: 'results_wc+wc-3d-c4/'
+                log_train: 0
+           max_perc_train: 20
+    train_data_range_obj1: 6.1859e+04
+    train_data_range_obj2: 1.0500e+05
+                    delta: 0.1000
+              factor_beta: 5
+    length_training_start: 30
+          s2_optimization: 1
+                test_mode: 1
+    number_of_repetitions: 40
+            exchange_path: 'exchange'
+            maximize_obj1: 1
+            maximize_obj2: 0
+             epsilon_list: 0.3000
+        max_size_pred_pop: 2000
+          train_set_exist: 0
+           print_progress: 1
+                 infinite: 0
+     eliminate_duplicates: 0
+        train_set_in_file: 'results_wc+wc-3d-c4/train_out.csv'
+
+
+gp_conf = 
+
+     meanfunc: {[@meanConst]}
+      covfunc: {[@covSum]  {1x2 cell}}
+      likfunc: @likGauss
+     hyp_obj1: 0
+     hyp_obj2: 0
+    post_obj1: 0
+    post_obj2: 0
+
+
+real_pareto_set_transformed =
+
+     0
+
+    [9x1 double]    [9x1 double]
+
+
+real_pareto_set_transformed = 
+
+    [9x1 double]    [9x1 double]
+
+******************* start new experiment *******************
+
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 35
+  In run_pal at 146 
+
+***********  ended  ***********
+number of evaluations : 49
+epsilon: 4.766808
+total time: 0.476034
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 80
+epsilon: 6.275049
+total time: 0.639422
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 79
+epsilon: 3.535859
+total time: 0.648179
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 78
+epsilon: 3.641281
+total time: 0.613358
+******************* start new experiment *******************
+
+
+gp obj1 failed hyperparams...
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 48
+  In run_pal at 146 
+
+***********  ended  ***********
+number of evaluations : 101
+epsilon: 1.106802
+total time: 0.349431
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 79
+epsilon: 0.314160
+total time: 0.627855
+******************* start new experiment *******************
+
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 95
+epsilon: 0.000004
+total time: 0.123877
+******************* start new experiment *******************
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 34
+  In run_pal at 146 
+
+
+gp obj2 failed hyperparams...
+
+***********  ended  ***********
+number of evaluations : 79
+epsilon: 0.314164
+total time: 0.118710
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 76
+epsilon: 0.000004
+total time: 0.584687
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 162
+epsilon: 0.125918
+total time: 1.913050
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 64
+epsilon: 2.809826
+total time: 0.422705
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 70
+epsilon: 0.127094
+total time: 0.525843
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 118
+epsilon: 3.500069
+total time: 1.203359
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 99
+epsilon: 0.314160
+total time: 0.930424
+******************* start new experiment *******************
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 34
+  In run_pal at 146 
+
+
+***********  ended  ***********
+number of evaluations : 86
+epsilon: 4.765182
+total time: 0.731140
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 53
+epsilon: 6.312394
+total time: 0.278085
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 45
+epsilon: 9.087193
+total time: 0.176428
+******************* start new experiment *******************
+Warning: Inference method failed [Error using chol
+Matrix must be positive definite.] .. attempting to continue 
+> In gp at 118
+  In minimize at 97
+  In gp_find_hp at 35
+  In update_predictions at 34
+  In run_pal at 146 
+
+
+***********  ended  ***********
+number of evaluations : 100
+epsilon: 6.276640
+total time: 0.891826
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 55
+epsilon: 3.883420
+total time: 0.333923
+******************* start new experiment *******************
+
+
+***********  ended  ***********
+number of evaluations : 71
+epsilon: 0.736096
+total time: 0.488522
+>> 

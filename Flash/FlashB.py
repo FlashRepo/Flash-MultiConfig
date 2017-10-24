@@ -212,7 +212,8 @@ def run_main(files, repeat_no, stop, start_size):
         pickle.dump(all_data, open('PickleLocker_FlashB_'+str(start_size)+'_'+str(stop)+'/' + file + '_' + str(repeat_no) + '.p', 'w'))
 
 if __name__ == "__main__":
-    files = ['SS-A', 'SS-B', 'SS-C', 'SS-D', 'SS-E', 'SS-F', 'SS-G', 'SS-H', 'SS-I', 'SS-J', 'SS-K', 'SS-L']#, 'SS-M', 'SS-N', 'SS-O']
+    # files = ['SS-A', 'SS-B', 'SS-C', 'SS-D', 'SS-E', 'SS-F', 'SS-G', 'SS-H', 'SS-I', 'SS-J', 'SS-K', 'SS-L']#, 'SS-M', 'SS-N', 'SS-O']
+    files = [ 'SS-M', 'SS-N', 'SS-O']
 
     import multiprocessing as mp
 
@@ -221,7 +222,7 @@ if __name__ == "__main__":
     pool = mp.Pool()
     for file in files:
         times[file] = []
-        for start_size in [15, 20, 25, 30]:
+        for start_size in [30]:
             for rep in xrange(20):
                 pool.apply_async(run_main, ([file], rep, 50, start_size))
                 # start_time = time()
