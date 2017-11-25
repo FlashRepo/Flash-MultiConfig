@@ -55,6 +55,6 @@ ax.set_yticklabels(ylabel) # set the labels to display at those ticks
 
 # plt.xticks(xlabel)
 # plt.yticks(ylabel)
-plt.savefig('tradeoff.eps')
+plt.savefig('tradeoff.eps', bbox_inches='tight')
 plt.cla()
 # plt.show()

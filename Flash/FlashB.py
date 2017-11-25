@@ -223,7 +223,7 @@ if __name__ == "__main__":
     for file in files:
         times[file] = []
         for start_size in [30]:
-            for rep in xrange(20):
+            for rep in xrange(10):
                 pool.apply_async(run_main, ([file], rep, 50, start_size))
                 # start_time = time()
                 # run_main([file], rep, 50, start_size)
